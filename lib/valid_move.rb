@@ -6,7 +6,7 @@ def valid_move?(number_entered, board)
   end
 end
 
-  
+
 
 
 
