@@ -1,10 +1,11 @@
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
-def valid_move?(board, index)
-  if board[index].between?(0, 8)
-    true
+def valid_move?(number_entered, board)
+  if number_entered.between?(0, 8)
+    true 
   end
 end
+
 
 
 
