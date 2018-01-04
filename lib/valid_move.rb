@@ -1,6 +1,5 @@
-board = [" ", " ", "X", " ", " ", " ", " ", " ", " "]
-user_input = gets.chomp
-number_entered = user_input.to_i - 1
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+
   def valid_move?(number_entered, board)
   if number_entered.between?(0, 8) && !(position_taken?(board, number_entered))
     true
